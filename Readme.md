@@ -17,13 +17,15 @@
 ### create
 
 ```
-% java -jar aaaa.jar user1 user2 user3
+% java -jar accesskey-tools-create-1.0.0.jar user1 user2 user3
 ```
+
+create コマンドは、~/.aws/ディレクトリに、<<ユーザ名>>.credentials という名前で credentialsファイルを作成します
 
 ### rotate
 
 ```
-% java -jar bbbb.jar
+% java -jar accesskey-tools-rotate-1.0.0.jar
 ```
 
 rotateコマンドは、
